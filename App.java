@@ -1,22 +1,22 @@
+import java.util.Scanner;
 
 public class App {
 public static void main(String[] args) {
-    String sala = "A219";
-    String salainformada = "";
-    Scanner scanner = new scanner(System.in);
+    String salaDesejada = "A219";
+    String salaInformada = "";
+    Scanner scanner = new Scanner(System.in);
     
-    System.out.println(x: "Digite o numero da sala:");
-    salainformada == scanner.next();
+    System.out.println("Digite o numero da sala:");
+    salaInformada = scanner.next();
     
-    if (salainformada.equals(salainformada));{
-    System.out.println(x: "você encontrou a sua sala");
+    if (salaDesejada.equals(salaInformada)) {
+    System.out.println("você encontrou a sua sala");
     
 
-else
-{
-    System.out.println(x:"você esta perdido");
+} else {
+    System.out.println("você esta perdido!\nSe encontre!");
     
 }
     scanner.close();
-    
+}  
 }
